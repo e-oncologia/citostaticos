@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npnxnanbnsnfns00001000001" textdirection="ltr" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified">
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npnxnanbnsnfns00000000001" textdirection="ltr" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified">
   <layouts>
-    <layout name="npnxnanbsnfns00000000001" font="Open Sans" controllayout="npnxnanbsnfns00000000001" colorscheme="npnxnanbnsnfns00001000001" string_table="npnxnanbnsnfns00001000001" />
-    <layout name="pxabnsnfns00000000001" font="Open Sans" controllayout="pxabnsnfns00000000001" colorscheme="npnxnanbnsnfns00001000001" string_table="npnxnanbnsnfns00001000001" />
-    <layout name="npxnabnsnfns00000000001" font="Open Sans" controllayout="npxnabnsnfns00000000001" colorscheme="npnxnanbnsnfns00001000001" string_table="npnxnanbnsnfns00001000001" />
-    <layout name="npnxnanbnsnfns00000000001" font="Open Sans" controllayout="npnxnanbnsnfns00000000001" colorscheme="npnxnanbnsnfns00001000001" string_table="npnxnanbnsnfns00001000001" />
-    <layout name="pxabnsnfns00000000000" font="Open Sans" controllayout="pxabnsnfns00000000000" colorscheme="npnxnanbnsnfns00001000001" string_table="npnxnanbnsnfns00001000001" />
-    <layout name="npnxnanbnsnfns00001000001" font="Open Sans" controllayout="npnxnanbnsnfns00001000001" colorscheme="npnxnanbnsnfns00001000001" string_table="npnxnanbnsnfns00001000001" />
-    <layout name="pxabnsnfns00001000001" font="Open Sans" controllayout="pxabnsnfns00001000001" colorscheme="npnxnanbnsnfns00001000001" string_table="npnxnanbnsnfns00001000001" />
+    <layout name="npnxnanbsnfns00000000001" font="Open Sans" controllayout="npnxnanbsnfns00000000001" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
+    <layout name="pxabnsnfns00000000001" font="Open Sans" controllayout="pxabnsnfns00000000001" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
+    <layout name="npxnabnsnfns00000000001" font="Open Sans" controllayout="npxnabnsnfns00000000001" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
+    <layout name="npnxnanbnsnfns00000000001" font="Open Sans" controllayout="npnxnanbnsnfns00000000001" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
+    <layout name="pxabnsnfns00000000000" font="Open Sans" controllayout="pxabnsnfns00000000000" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -15,13 +13,13 @@
         <options>
           <option name="title_enabled" value="false">
             <options>
-              <option name="title_text" value="CITOSTATICOS2020" />
+              <option name="title_text" value="Módulo 6: Elementos de protección individual" />
             </options>
           </option>
           <option name="logo_enabled" value="false">
             <options />
           </option>
-          <option name="sidebar_enabled" value="true">
+          <option name="sidebar_enabled" value="false">
             <options>
               <option name="sidebarpos" value="left" />
               <option name="closed" value="false" />
@@ -49,7 +47,7 @@
       </optiongroup>
       <optiongroup name="menuoptions">
         <options>
-          <option name="flow" value="free" />
+          <option name="flow" value="restricted" />
           <option name="wraplistitems" value="true" />
           <option name="tooltips" value="true" />
           <option name="autocollapse" value="true" />
@@ -206,55 +204,9 @@
       </control>
       <control name="close_btn" enabled="false" />
     </control_layout>
-    <control_layout name="npnxnanbnsnfns00001000001">
-      <control name="volume" enabled="false" />
-      <control name="seekbar" enabled="false" />
-      <control name="replay" enabled="false" />
-      <control name="pauseplay" enabled="false" />
-      <control name="logo" enabled="false" />
-      <control name="previous" enabled="false" />
-      <control name="next" enabled="false" />
-      <control name="swipeleft" enabled="false" />
-      <control name="swiperight" enabled="false" />
-      <control name="submit" enabled="false" />
-      <control name="finish" enabled="false" />
-      <control name="submitall" enabled="false" />
-      <control name="resources" enabled="false" />
-      <control name="glossary" enabled="false" />
-      <control name="transcript" enabled="false" />
-      <control name="outline" enabled="true">
-        <controls>
-          <control name="search" enabled="false" />
-        </controls>
-      </control>
-      <control name="close_btn" enabled="true" />
-    </control_layout>
-    <control_layout name="pxabnsnfns00001000001">
-      <control name="volume" enabled="false" />
-      <control name="seekbar" enabled="false" />
-      <control name="replay" enabled="false" />
-      <control name="pauseplay" enabled="false" />
-      <control name="logo" enabled="false" />
-      <control name="previous" enabled="true" />
-      <control name="next" enabled="true" />
-      <control name="swipeleft" enabled="true" />
-      <control name="swiperight" enabled="true" />
-      <control name="submit" enabled="false" />
-      <control name="finish" enabled="false" />
-      <control name="submitall" enabled="false" />
-      <control name="resources" enabled="false" />
-      <control name="glossary" enabled="false" />
-      <control name="transcript" enabled="false" />
-      <control name="outline" enabled="true">
-        <controls>
-          <control name="search" enabled="false" />
-        </controls>
-      </control>
-      <control name="close_btn" enabled="true" />
-    </control_layout>
   </control_layouts>
   <colorschemes>
-    <colorscheme name="npnxnanbnsnfns00001000001">
+    <colorscheme name="npnxnanbnsnfns00000000001">
       <color_group name="accessibility">
         <group_colors>
           <color name="focus_rect">
@@ -1265,7 +1217,7 @@
     </colorscheme>
   </colorschemes>
   <string_tables>
-    <string_table name="npnxnanbnsnfns00001000001">
+    <string_table name="npnxnanbnsnfns00000000001">
       <string id="acc_active">activo</string>
       <string id="check_include">De verificación para incluir</string>
       <string id="clear">Borrar y volver al menú</string>
@@ -1335,21 +1287,7 @@
   <nav_data>
     <outline>
       <links>
-        <slidelink slideid="_player.5bDP4IfYgjS.5WHCq6fvbij" displaytext="Presentación" expand="false" type="slide" />
-        <slidelink slideid="_player.6WfJmWkSzrp.5jdIttawM8H" displaytext="1 Generalidades sobre el cáncer" expand="false" type="slide" />
-        <slidelink slideid="_player.6CkwLp1xNxO.5sB31p4uPBk" displaytext="2 Medicamentos y mecanismos de acción" expand="false" type="slide" />
-        <slidelink slideid="_player.6YajdgO3i5g.6k3Gh2xLfaF" displaytext="3 Prevención de riesgos laborales" expand="false" type="slide" />
-        <slidelink slideid="_player.6fenYyL5pcM.6OLt2izC8fO" displaytext="4 Recepción, almacenaje y transporte" expand="false" type="slide" />
-        <slidelink slideid="_player.6bb6MCyNSiw.5i75EHSBzuG" displaytext="5 Unidad centralizada de preparación de citostáticos" expand="false" type="slide" />
         <slidelink slideid="_player.6QNyctODRFg.6FIJbEz1wQx" displaytext="6 Elementos de protección individual" expand="false" type="slide" />
-        <slidelink slideid="_player.6QSJOARd4vm.67QXbIscUfR" displaytext="7 Técnicas de manipulación" expand="false" type="slide" />
-        <slidelink slideid="_player.5XDWJLyNqdr.6eRi5ecYwzs" displaytext="8 Descontaminación y limpieza" expand="false" type="slide" />
-        <slidelink slideid="_player.5sqMSvZztrn.6VcqdRvH2iT" displaytext="9 Eliminación de residuos" expand="false" type="slide" />
-        <slidelink slideid="_player.6J50hqcQ5ke.6g8MTTN6vTz" displaytext="10 Control de derrames" expand="false" type="slide" />
-        <slidelink slideid="_player.6VbTNswyPge.6FGin3fnlof" displaytext="11 Extravasación" expand="false" type="slide" />
-        <slidelink slideid="_player.6hLoY5NYvEf.5avKMNmdWdj" displaytext="12 Proceso de gestión de la quimioterapia" expand="false" type="slide" />
-        <slidelink slideid="_player.6YUjpkKTzAH.6SoAQnPoVRJ" displaytext="13 Gestión de la dispensación de quimioterapia oral" expand="false" type="slide" />
-        <slidelink slideid="_player.6A6Elm0UMVb.6F6n6pqvrTk" displaytext="14 Guías y recomendaciones" expand="false" type="slide" />
       </links>
     </outline>
   </nav_data>
